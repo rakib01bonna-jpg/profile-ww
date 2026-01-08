@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 100px;
+
 }
 
 /* shared style  */
@@ -29,7 +31,10 @@
     font-weight: bold;
     color: white;
     cursor: pointer;
+    border-radius: 20px;
 }
+
+
 
 .section-heading {
     max-width: 827px;
@@ -71,6 +76,9 @@ header {
     padding-top: 50px;
 }
 
+
+
+
 nav {
 
     display: flex;
@@ -78,6 +86,8 @@ nav {
     align-items: center;
 
 }
+
+
 
 nav .menu {
     display: flex;
@@ -91,6 +101,13 @@ nav .menu a {
     color: #474747;
     text-decoration: none;
 }
+
+
+
+
+
+
+
 
 #banner {
     /* border: 1px solid red; */
@@ -128,8 +145,12 @@ nav .menu a {
 
 #banner .banner-image img {
     max-width: 585px;
+    
     vertical-align: middle;
 }
+
+
+
 
 #about,
 #skills,
@@ -148,6 +169,8 @@ nav .menu a {
     display: flex;
     justify-content: space-around;
 }
+
+
 
 .about-info .info-card p {
 
@@ -182,6 +205,8 @@ nav .menu a {
     margin-bottom: 30px;
 }
 
+
+
 .skill-card h3 {
     font-size: 20px;
     color: #181818;
@@ -194,12 +219,20 @@ nav .menu a {
     line-height: 28px;
 
 }
+.skills-box  :hover {
+
+    background-color: #FD6E0A;
+    cursor: pointer;
+}
+    
 
 #resume .resume-container {
-
+    
+    border-radius: 20px;
     margin-top: 113px;
     display: flex;
     gap: 24px;
+    box-shadow: 20px 10px 10px 10px #757575;
 }
 
 .resume-container hr {
@@ -282,7 +315,17 @@ footer .footer-container {
 
     color: #757575
 }
-
+ .skill-box :hover {
+    background:  #ede0e0;
+    cursor: pointer;
+}
+#about :hover {
+    background: #ede0e0;
+    cursor: pointer;
+}
+#resume :hover {
+    background-color: #ede0e0;
+}
     
 
 
