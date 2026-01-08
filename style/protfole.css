@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -14,6 +15,12 @@
       font-size: 45px;
       font-weight: 900px;
 
+}
+#banner .rakibul-content h2 {
+      font-size: 85px;
+      font-weight: bold;
+      color: #181818;
+      margin-bottom: 20px;
 }
 .color-orange {
     color: rgb(212, 115, 24);
@@ -53,3 +60,38 @@ nav .menu {
     font-size: 20px;
     font-weight: bold;
 }
+#bodmas{
+   /* border: 1px solid red;*/
+    margin: 45px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bodmas .rakibul-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+#bodmas .rakibul-content h1 {
+           
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+    color: #474747;
+}
+#badmas .rakibul-content p{
+         
+    font-size: 18px;
+    color: #474747;    
+
+
+
+
+
+}
+    
+
+  
+
+
